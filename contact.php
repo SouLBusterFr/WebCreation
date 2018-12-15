@@ -35,6 +35,9 @@
     <label for="message">Message:</label>
     <textarea id="message" name="message"></textarea>
   </div>
+  <div class="coche row">
+    <input class="col-lg-1" type="checkbox" name="checkbox" required form="contact"><span class="lcol-lg-11" id="coche">Acceptez-vous la réception de vos données personnelles ?</span>
+  </div>
   <div class="button">
         <input type="submit" name="valider" value="envoyer" id="button"/>
   </div>
