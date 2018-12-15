@@ -59,7 +59,7 @@
             $formation = $_POST['formation'];
             $headers = "From " . $nom . " " . $prenom . " en " . $formation . "  " . $mail;
             mail($to,$subject,$message, $headers);
-            echo "L'email a été envoyé.";
+            echo "<span style=\"margin-left: auto; margin-right: auto; color: white;\">L'email a été envoyé</span>";
         }
 ?>
 </body>
